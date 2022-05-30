@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    background-color: #ff5252;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .main {
+    background-color: #fb8c00;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main {
+    background-color: #4caf50;
+  }
+}

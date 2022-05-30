@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.main > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+}
+
+.main .box1 {
+  background-color: #ff5252;
+}
+
+.main .box2 {
+  background-color: #fb8c00;
+}
+
+.main .box3 {
+  background-color: #4caf50;
+}
+
+/* main1 */
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* main2 */
+.main2 {
+  display: flex;
+  margin-top: 48px;
+}
+
+.main2 > div {
+  width: auto;
+  height: 280px;
+  box-sizing: border-box;
+}
+
+.main2 > .box1 {
+  width: 100px;
+}
+
+.main2 > .box2 {
+  flex: 3;
+}
+
+.main2 > .box3 {
+  flex: 1;
+}
+
+/* main3 */
+.main3 {
+  display: flex;
+  margin-top: 48px;
+}
+
+.main3 div {
+  /* width: 320px; */
+}
+
+.main3 > .box1 {
+  flex-shrink: 0;
+  flex-basis: 320px;
+}
+
+.main3 > .box2 {
+  flex-shrink: 0;
+  flex-basis: 320px;
+}
+
+.main3 > .box3 {
+  flex-shrink: 0;
+  flex-basis: 320px;
+}
