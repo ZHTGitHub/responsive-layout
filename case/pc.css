@@ -1,0 +1,16 @@
+.contain {
+  width: 1200px;
+}
+
+.contain .main ul.aside {
+  flex: 1 0 15%;
+}
+
+.contain .main .aside > li {
+  padding: 8px 0 8px 8px;
+  line-height: 24px;
+}
+
+.contain .main ul.images {
+  flex: 1 0 85%;
+}

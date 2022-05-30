@@ -1,0 +1,28 @@
+.contain {
+  width: 100%;
+}
+
+.contain .main {
+  display: flex;
+  flex-direction: column;
+}
+
+.contain .main ul.aside {
+  flex: 1 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain .main ul.aside > li {
+  flex: 1 0 33.3333333%;
+}
+
+.contain .main ul.images {
+  flex: 1 0 100%;
+}
+
+.contain .main ul.images > li {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
